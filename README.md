@@ -37,6 +37,38 @@ position with the same side to move, or the number of moves above by each side w
 moving and nothing captured. These draw rules are a simplification of the official rules, which
 have extra endgame-specific counts.
 
+## Installation
+
+The library is built by [JitPack](https://jitpack.io/#czlonkowski/polish-draughts-java) straight
+from this repository.
+
+**Maven**
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependency>
+    <groupId>com.github.czlonkowski</groupId>
+    <artifactId>polish-draughts-java</artifactId>
+    <version>v0.1.0</version>
+</dependency>
+```
+
+**Gradle**
+
+```groovy
+repositories { maven { url 'https://jitpack.io' } }
+dependencies { implementation 'com.github.czlonkowski:polish-draughts-java:v0.1.0' }
+```
+
+Or download the jar from the [releases page](https://github.com/czlonkowski/polish-draughts-java/releases),
+or copy the nine source files from `src/main/java`: there are no dependencies.
+
 ## Usage
 
 ```java
